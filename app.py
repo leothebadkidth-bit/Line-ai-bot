@@ -1,4 +1,4 @@
-import os
+v1beta os
 import requests
 from flask import Flask, request
 
@@ -15,7 +15,7 @@ def home():
 def ask_gemini(text):
     url = (
         "https://generativelanguage.googleapis.com/"
-        "v1beta/models/gemini-2.5-flash:generateContent"
+        "v1beta/models/gemini-3.8-flash:generateContent"
     )
 
     data = {
